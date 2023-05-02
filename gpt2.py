@@ -304,11 +304,11 @@ def ai_loop(input_sentence):
 		else:
 			print(f"{bcolors.OKBLUE}Ok, thanks for letting me know.")
 
-
-	#try:
-	print(f"{bcolors.OKBLUE}" + pplm_simplified.main(input_sentence) + f"{bcolors.ENDC}")
-	#except:
-	#	print(f"{bcolors.OKBLUE}I'm sorry I'm having an AI failure. Can you rephrase that?{bcolors.ENDC}")
+	print(f"{bcolors.OKBLUE}If you are in crisis, you can contact the National Mental Health Crisis Hotline 988.{bcolors.ENDC}")
+	try:
+		print(f"{bcolors.OKBLUE}" + pplm_simplified.main(input_sentence) + f"{bcolors.ENDC}")
+	except:
+		print(f"{bcolors.OKBLUE}I'm sorry I'm having an AI failure. Can you rephrase that?{bcolors.ENDC}")
 
 
 	print("A. I\'d rather talk to a human now. Can you connect me?")

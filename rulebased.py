@@ -330,6 +330,7 @@ def ai_loop(input_sentence):
 	
 
 	if len(emos_sentence) > 0:
+		print(f"{bcolors.OKBLUE}If you are in crisis, you can contact the National Mental Health Crisis Hotline 988.{bcolors.ENDC}")
 		print(f"{bcolors.OKBLUE}It seems that you " + " and ".join(emos_sentence) + "." + f"{bcolors.ENDC}\n")
 		for item in pred_labels:
 			print(f"{bcolors.OKBLUE}" + random.choice(concerns_reply_matching[item]) + f"{bcolors.ENDC}")

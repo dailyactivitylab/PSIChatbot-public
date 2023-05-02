@@ -255,6 +255,8 @@ def ai_loop(input_sentence):
 		else:
 			print(f"{bcolors.OKBLUE}Ok, thanks for letting me know.{bcolors.ENDC}\n")
 
+	print(f"{bcolors.OKBLUE}If you are in crisis, you can contact the National Mental Health Crisis Hotline 988.{bcolors.ENDC}")
+
 	print(f"{bcolors.OKBLUE}" + random.choice(supportive_responses) + f"{bcolors.ENDC}")
 
 	print(f"{bcolors.OKBLUE}" + random.choice(sharing_responses) + f"{bcolors.ENDC}")
