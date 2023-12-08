@@ -27,3 +27,9 @@
 use python3 to run each of the chatbot, select B. mental health professional and C. talk to PSIBot to interact with chatbots using sentences
 
 
+
+The rule-based model need file LIWC_decrypted_flat.dic to run. LIWC is a licensed software (https://www.liwc.app/buy), so it is not included in this repository. 
+After you purchase the the software, you should find a machine-readable *.dic file. If not, please contact the distributor.
+The lab used LIWC 2015 when conducting this research. 
+
+
